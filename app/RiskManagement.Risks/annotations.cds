@@ -9,8 +9,9 @@ annotate service.Risks with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'Prio',
+            Label : 'Prior',
             Value : Prio,
+            ![@UI.Importance] : #Medium,
         },
         {
             $Type : 'UI.DataField',
